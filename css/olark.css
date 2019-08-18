@@ -5,7 +5,7 @@ p.olark-intro span { font-size: 30px; }
 a.olark-logo { display: inline-block; float: left; margin: -28px 120px 0px 0px; }
 p.olark-intro a.olark-link { margin-top: 25px; }
 
-.olark-content { 
+.olark-content {
 	-webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.3); -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.3); box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
 	clear: both; margin: 0px 0px 15px 0px; padding: 20px; overflow: hidden;
 }
@@ -19,24 +19,22 @@ p.olark-intro a.olark-link { margin-top: 25px; }
 .olark-content ul li img { margin: 0px 6px 0px 0px; vertical-align: top; }
 
 a.olark-link {
-	background: url(../img/button-green-border.png) no-repeat top left;
+	background-color: #74b9f1;
 	border: none;
 	color: white !important;
-	display: inline-block;    
-    height: 30px;
-    font-weight: bold;
-    font-size: 18px;
+	display: inline-block;
+    height: 44px;
+    font-size: 16px;
     line-height: 18px;
     margin: 0;
-    padding: 13px 0 0px 0;
-    text-align: center;    
+    padding: 12px 32px;
+    text-align: center;
 	text-decoration: none;
-	text-shadow: 0px 1px 0px #225109;
-	width: 198px;
+	border-radius: 22px;
 }
 a.olark-link:hover {
 	color: white !important;
-	background-position: top -198px;
+	opacity: 0.9;
 }
 
 .olark-video { float: right; margin: 0px 0px 0px 30px; width: 350px; overflow: hidden; }
